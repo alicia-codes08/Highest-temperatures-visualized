@@ -26,5 +26,13 @@ for row in reader:
             temperatures.append(value)
             dates.append(date)
 
-print(temperatures) 
-print(dates) 
+
+# visualize extraced data
+plt.style.use('grayscale')
+fig, ax = plt.subplots(figsize=(10, 5))
+ax.plot(dates, temperatures, color="blue", linewidth=0.8)
+ax.set_title("Temperature in Zurich (2025)", fontsize=20)
+ax.set_ylabel("Temperature in °C", fontsize=16)
+ax.tick_params(axis="both", labelsize=13)
+
+plt.show() 
