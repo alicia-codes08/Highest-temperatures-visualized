@@ -30,7 +30,8 @@ for row in reader:
 # visualize extraced data
 plt.style.use('grayscale')
 fig, ax = plt.subplots(figsize=(10, 5))
-ax.plot(dates, temperatures, color="red")
+ax.scatter(dates, temperatures, color="red", s=8)
+ax.plot(dates, temperatures, color="red", alpha=0.5)
 ax.set_title("Max. temperatures in Zurich (2025)", fontsize=20)
 ax.set_ylabel("Temperature in °C", fontsize=16)
 ax.tick_params(axis="both", labelsize=13)
