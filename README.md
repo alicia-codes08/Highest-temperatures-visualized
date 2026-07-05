@@ -4,4 +4,4 @@ The measured highest temperatues are in the beginning and the end of the year ra
 highest temperatues in the middle of the year.
 
 Origin of the data:
-https://www.meteoschweiz.admin.ch/service-und-publikationen/applikationen/ext/daten-ohne-programmierkenntnisse-herunterladen.html
+https://www.meteoschweiz.admin.ch/service-und-publikationen/applikationen/ext/daten-ohne-programmierkenntnisse-herunterladen.html (Source: MeteoSwiss)
